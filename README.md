@@ -10,3 +10,5 @@ Neural signals are in the form of a time series data. They conventionally have a
 Another way of simulating Neural data is by generating ‘Chirps’. A Chirp is a frequency modulated sine wave. Basically, this is a single sine wave with multiple frequencies, either increasing or decreasing. Demonstrated in [chirps](chirps.ipynb).
 
 Morlet Wavelets can also be used in neural data simulation. These wavelets are narrow band and transient. These features are exhibited by real EEG data. This is demonstrated in [transient](transient.ipynb).
+
+Electrodes enable the measurement of brain activity. So far, we have been simulating data at the electrode level, hence simulating electrode measurements. In dipoles, we're going to simulate the sources of brain activity which project to the scalp, and are picked up or measured by these electrodes. In short, we are going to be simulating the projections of neurons onto the scalp. 
